@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kanban Pro v1</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<header>
+  <h2>Kanban Pro v1</h2>
+  <div class="controls">
+    <input id="search" placeholder="Search..." />
+    <button class="secondary" id="themeBtn">Theme</button>
+    <button class="secondary" id="exportBtn">Export</button>
+    <button class="secondary" id="importBtn">Import</button>
+    <input type="file" id="importFile" hidden />
+    <button id="addColumnBtn">+ Column</button>
+  </div>
+</header>
+
+<div class="board" id="board"></div>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <h3>Task</h3>
+    <input id="mTitle" placeholder="Title" />
+    <select id="mPriority">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <textarea id="mDesc" rows="3" placeholder="Description"></textarea>
+    <input type="hidden" id="mCol" />
+    <input type="hidden" id="mId" />
+    <div class="modal-actions">
+      <button class="secondary" id="cancelBtn">Cancel</button>
+      <button id="saveBtn">Save</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/state.js"></script>
+<script src="js/drag.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
