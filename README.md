@@ -111,4 +111,4 @@ Frontend & Web Development Enthusiast
 
 ## 📜 License
 
-This project is open for learning and personal use.
+© 2025 Kunal Kumar. Released under the MIT License.
