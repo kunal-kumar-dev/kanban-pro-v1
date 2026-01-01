@@ -75,7 +75,7 @@ kanban-pro-v3/
 
 1. Clone the repository:
    ```bash
-   https://github.com/Kunal-Kumar-Rajak/kanban-pro-v1.git
+   https://github.com/Kunal-Kumar-Dev/kanban-pro-v1.git
    ```
 2. Open `index.html` in your browser  
    *(No server or build tools required)*
