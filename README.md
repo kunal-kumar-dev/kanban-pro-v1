@@ -7,7 +7,7 @@ A clean, modular **Kanban Board application** built using **Vanilla HTML, CSS, a
 
 **Author:** **Kunal Kumar**
 
-LIVE:- https://kanban-pro-v1.netlify.app/
+LIVE:- https://kunal-kumar-dev.github.io/kanban-pro-v1/
 
 ---
 
